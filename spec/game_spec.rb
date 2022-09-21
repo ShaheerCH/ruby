@@ -1,8 +1,8 @@
 require_relative 'spec_helper'
 
 describe Game do
-  let(:apex) { Game.new('2018-03-05', false, '2020-02-02') }
-  let(:fortnite) { Game.new('2014-07-02', true, '2021-02-02') }
+  let(:apex) { Game.new('2009-03-05', false, '2020-02-02') }
+  let(:fortnite) { Game.new('2018-07-02', true, '2021-02-02') }
 
   describe '#game class' do
     it 'should be a game class' do
