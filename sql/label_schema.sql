@@ -1,0 +1,4 @@
+
+CREATE TABLE label (
+    id INT PRIMARY KEY
+);
