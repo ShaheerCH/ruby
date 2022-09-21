@@ -40,7 +40,7 @@ describe Game do
 
   describe '#publish_date' do
     it 'returns the publish date' do
-      expect(apex.publish_date).to eql('2018-03-05')
+      expect(apex.publish_date.to_s).to eql('2009-03-05')
     end
   end
 end
